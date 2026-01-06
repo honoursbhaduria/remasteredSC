@@ -1,0 +1,98 @@
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 14:55:15"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 14:55:15"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 14:55:15"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 14:55:15"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 14:55:15"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 14:55:15"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 14:55:15"}
+{"aiAnalysis":false,"autoClassification":false,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":false,"timestamp":"2026-01-06 14:55:15"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 14:56:33"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 14:56:33"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 14:56:33"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 14:56:33"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 14:56:33"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 14:56:33"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 14:56:33"}
+{"aiAnalysis":false,"autoClassification":false,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":false,"timestamp":"2026-01-06 14:56:33"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 14:56:47"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 14:56:47"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 14:56:47"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 14:56:47"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 14:56:47"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 14:56:47"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 14:56:47"}
+{"aiAnalysis":false,"autoClassification":false,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":false,"timestamp":"2026-01-06 14:56:47"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 14:56:54"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 14:56:54"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 14:56:54"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 14:56:54"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 14:56:54"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 14:56:54"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 14:56:54"}
+{"aiAnalysis":false,"autoClassification":false,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":false,"timestamp":"2026-01-06 14:56:54"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 14:57:05"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 14:57:05"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 14:57:05"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 14:57:05"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 14:57:05"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 14:57:05"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 14:57:05"}
+{"aiAnalysis":false,"autoClassification":false,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":false,"timestamp":"2026-01-06 14:57:05"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 15:01:22"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 15:01:22"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 15:01:22"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 15:01:22"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 15:01:22"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 15:01:22"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 15:01:22"}
+{"aiAnalysis":false,"autoClassification":false,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":false,"timestamp":"2026-01-06 15:01:22"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"forensics-api","timestamp":"2026-01-06 15:01:47"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 15:10:26"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 15:10:26"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 15:10:26"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 15:10:26"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 15:10:26"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 15:10:26"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 15:10:26"}
+{"aiAnalysis":true,"autoClassification":true,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":true,"timestamp":"2026-01-06 15:10:26"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"forensics-api","timestamp":"2026-01-06 15:11:09"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 15:14:32"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 15:14:32"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 15:14:32"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 15:14:32"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 15:14:32"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 15:14:32"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 15:14:32"}
+{"aiAnalysis":true,"autoClassification":true,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":true,"timestamp":"2026-01-06 15:14:32"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 15:16:37"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 15:16:37"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 15:16:37"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 15:16:37"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 15:16:37"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 15:16:37"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 15:16:37"}
+{"aiAnalysis":true,"autoClassification":true,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":true,"timestamp":"2026-01-06 15:16:37"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"aiAnalysis":true,"autoClassification":true,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":true,"timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 15:32:38"}
+{"aiAnalysis":true,"autoClassification":true,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":true,"timestamp":"2026-01-06 15:32:38"}
+{"level":"info","message":"╔════════════════════════════════════════════════════════════════╗","service":"forensics-api","timestamp":"2026-01-06 15:35:56"}
+{"level":"info","message":"║  AI-Assisted Log Investigation Framework - Backend API        ║","service":"forensics-api","timestamp":"2026-01-06 15:35:56"}
+{"level":"info","message":"╚════════════════════════════════════════════════════════════════╝","service":"forensics-api","timestamp":"2026-01-06 15:35:56"}
+{"level":"info","message":"🚀 Server started in development mode","service":"forensics-api","timestamp":"2026-01-06 15:35:56"}
+{"level":"info","message":"📡 Listening on http://localhost:5000","service":"forensics-api","timestamp":"2026-01-06 15:35:56"}
+{"level":"info","message":"🔒 CORS enabled for: http://localhost:3000","service":"forensics-api","timestamp":"2026-01-06 15:35:56"}
+{"level":"info","message":"📊 API Version: v1","service":"forensics-api","timestamp":"2026-01-06 15:35:56"}
+{"aiAnalysis":true,"autoClassification":true,"cloudStorage":false,"level":"info","message":"✨ Feature Flags:","notifications":false,"service":"forensics-api","threatIntelligence":true,"timestamp":"2026-01-06 15:35:56"}
