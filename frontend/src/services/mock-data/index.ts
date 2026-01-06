@@ -1,56 +1,6 @@
-import { 
-  User, 
-  Case, 
-  RawEvidence, 
-  FilteredArtifact, 
-  AttackStory, 
-  SystemStats, 
-  ChainOfCustodyEntry, 
-  EvidenceFile,
-  InvestigatorNote,
-  DecisionLogEntry
-} from '../models/types';
+import { Case, RawEvidence, FilteredArtifact, AttackStory, SystemStats, ChainOfCustodyEntry, EvidenceFile } from '../../types';
 
-// Mock Users (password is just 'demo123' for all in this demo)
-export const users: User[] = [
-  {
-    id: '0',
-    email: 'test@gmail.com',
-    name: 'Test User',
-    role: 'investigator',
-    password: '123456'
-  },
-  {
-    id: '1',
-    email: 'investigator@company.com',
-    name: 'John Investigator',
-    role: 'investigator',
-    password: 'demo123'
-  },
-  {
-    id: '2',
-    email: 'responder@company.com',
-    name: 'Jane Responder',
-    role: 'incident-responder',
-    password: 'demo123'
-  },
-  {
-    id: '3',
-    email: 'auditor@company.com',
-    name: 'Legal Auditor',
-    role: 'legal-auditor',
-    password: 'demo123'
-  },
-  {
-    id: '4',
-    email: 'executive@company.com',
-    name: 'Executive User',
-    role: 'executive',
-    password: 'demo123'
-  }
-];
-
-export const cases: Case[] = [
+export const mockCases: Case[] = [
   {
     id: 'CASE-001',
     title: 'Suspected Ransomware Intrusion - Finance Dept',
@@ -101,7 +51,7 @@ export const cases: Case[] = [
   },
 ];
 
-export const rawEvidence: RawEvidence[] = [
+export const mockRawEvidence: RawEvidence[] = [
   {
     id: 'EV-001',
     caseId: 'CASE-001',
@@ -174,9 +124,9 @@ export const rawEvidence: RawEvidence[] = [
   },
 ];
 
-export const filteredArtifacts: FilteredArtifact[] = [
+export const mockFilteredArtifacts: FilteredArtifact[] = [
   {
-    ...rawEvidence[0],
+    ...mockRawEvidence[0],
     confidenceScore: 0.95,
     riskLevel: 'critical',
     llmInference: 'PowerShell command with execution policy bypass downloading remote payload. Classic initial access technique.',
@@ -185,7 +135,7 @@ export const filteredArtifacts: FilteredArtifact[] = [
     excludedFromStory: false,
   },
   {
-    ...rawEvidence[1],
+    ...mockRawEvidence[1],
     confidenceScore: 0.92,
     riskLevel: 'critical',
     llmInference: 'Outbound connection to suspicious IP on non-standard port. Likely C2 communication.',
@@ -194,7 +144,7 @@ export const filteredArtifacts: FilteredArtifact[] = [
     excludedFromStory: false,
   },
   {
-    ...rawEvidence[2],
+    ...mockRawEvidence[2],
     confidenceScore: 0.88,
     riskLevel: 'high',
     llmInference: 'Malicious executable dropped in user temp directory. Part of payload deployment.',
@@ -203,7 +153,7 @@ export const filteredArtifacts: FilteredArtifact[] = [
     excludedFromStory: false,
   },
   {
-    ...rawEvidence[3],
+    ...mockRawEvidence[3],
     confidenceScore: 0.91,
     riskLevel: 'critical',
     llmInference: 'Persistence mechanism via registry run key. Ensures malware survives reboots.',
@@ -212,7 +162,7 @@ export const filteredArtifacts: FilteredArtifact[] = [
     excludedFromStory: false,
   },
   {
-    ...rawEvidence[4],
+    ...mockRawEvidence[4],
     confidenceScore: 0.94,
     riskLevel: 'critical',
     llmInference: 'Privilege escalation detected. User added to administrators group without authorization.',
@@ -221,7 +171,7 @@ export const filteredArtifacts: FilteredArtifact[] = [
     excludedFromStory: false,
   },
   {
-    ...rawEvidence[5],
+    ...mockRawEvidence[5],
     confidenceScore: 0.89,
     riskLevel: 'high',
     llmInference: 'Lateral movement via SMB. Attacker moving from workstation to server using compromised admin credentials.',
@@ -230,7 +180,7 @@ export const filteredArtifacts: FilteredArtifact[] = [
     excludedFromStory: false,
   },
   {
-    ...rawEvidence[6],
+    ...mockRawEvidence[6],
     confidenceScore: 0.97,
     riskLevel: 'critical',
     llmInference: 'Ransomware encryption activity. Large-scale file modification consistent with crypto-ransomware behavior.',
@@ -240,58 +190,56 @@ export const filteredArtifacts: FilteredArtifact[] = [
   },
 ];
 
-export const attackStories: AttackStory[] = [
-  {
-    id: 'STORY-001',
-    caseId: 'CASE-001',
-    overallConfidence: 0.92,
-    steps: [
-      {
-        id: 'STEP-001',
-        phase: 'initial-access',
-        timestamp: new Date('2026-01-04T08:15:23'),
-        description: 'Attacker gained initial access via malicious PowerShell script execution. The script bypassed execution policies and downloaded a remote payload from a known malicious domain.',
-        evidenceIds: ['EV-001'],
-        confidence: 0.95,
-      },
-      {
-        id: 'STEP-002',
-        phase: 'persistence',
-        timestamp: new Date('2026-01-04T08:17:12'),
-        description: 'Malware established persistence by creating a registry run key pointing to the dropped executable, ensuring it would execute on system startup.',
-        evidenceIds: ['EV-002', 'EV-003', 'EV-004'],
-        confidence: 0.90,
-      },
-      {
-        id: 'STEP-003',
-        phase: 'privilege-escalation',
-        timestamp: new Date('2026-01-04T08:20:15'),
-        description: 'The attacker escalated privileges by adding the compromised user account to the local administrators group, gaining full control over the workstation.',
-        evidenceIds: ['EV-005'],
-        confidence: 0.94,
-      },
-      {
-        id: 'STEP-004',
-        phase: 'lateral-movement',
-        timestamp: new Date('2026-01-04T08:22:45'),
-        description: 'Using the elevated privileges, the attacker moved laterally from the compromised workstation to the finance file server via SMB, using stolen admin credentials.',
-        evidenceIds: ['EV-006'],
-        confidence: 0.89,
-      },
-      {
-        id: 'STEP-005',
-        phase: 'data-exfiltration',
-        timestamp: new Date('2026-01-04T08:25:30'),
-        description: 'Final impact: Ransomware deployed on the file server, encrypting 1,247 financial documents. Ransom note left in multiple directories demanding payment.',
-        evidenceIds: ['EV-007'],
-        confidence: 0.97,
-      },
-    ],
-    generatedAt: new Date('2026-01-05T14:23:00'),
-  }
-];
+export const mockAttackStory: AttackStory = {
+  id: 'STORY-001',
+  caseId: 'CASE-001',
+  overallConfidence: 0.92,
+  steps: [
+    {
+      id: 'STEP-001',
+      phase: 'initial-access',
+      timestamp: new Date('2026-01-04T08:15:23'),
+      description: 'Attacker gained initial access via malicious PowerShell script execution. The script bypassed execution policies and downloaded a remote payload from a known malicious domain.',
+      evidenceIds: ['EV-001'],
+      confidence: 0.95,
+    },
+    {
+      id: 'STEP-002',
+      phase: 'persistence',
+      timestamp: new Date('2026-01-04T08:17:12'),
+      description: 'Malware established persistence by creating a registry run key pointing to the dropped executable, ensuring it would execute on system startup.',
+      evidenceIds: ['EV-002', 'EV-003', 'EV-004'],
+      confidence: 0.90,
+    },
+    {
+      id: 'STEP-003',
+      phase: 'privilege-escalation',
+      timestamp: new Date('2026-01-04T08:20:15'),
+      description: 'The attacker escalated privileges by adding the compromised user account to the local administrators group, gaining full control over the workstation.',
+      evidenceIds: ['EV-005'],
+      confidence: 0.94,
+    },
+    {
+      id: 'STEP-004',
+      phase: 'lateral-movement',
+      timestamp: new Date('2026-01-04T08:22:45'),
+      description: 'Using the elevated privileges, the attacker moved laterally from the compromised workstation to the finance file server via SMB, using stolen admin credentials.',
+      evidenceIds: ['EV-006'],
+      confidence: 0.89,
+    },
+    {
+      id: 'STEP-005',
+      phase: 'data-exfiltration',
+      timestamp: new Date('2026-01-04T08:25:30'),
+      description: 'Final impact: Ransomware deployed on the file server, encrypting 1,247 financial documents. Ransom note left in multiple directories demanding payment.',
+      evidenceIds: ['EV-007'],
+      confidence: 0.97,
+    },
+  ],
+  generatedAt: new Date('2026-01-05T14:23:00'),
+};
 
-export const systemStats: SystemStats = {
+export const mockSystemStats: SystemStats = {
   totalLogsIngested: 45892,
   logsFilteredOut: 38645,
   highConfidenceArtifacts: 7247,
@@ -299,7 +247,7 @@ export const systemStats: SystemStats = {
   investigationProgress: 67,
 };
 
-export const chainOfCustody: ChainOfCustodyEntry[] = [
+export const mockChainOfCustody: ChainOfCustodyEntry[] = [
   {
     id: 'COC-001',
     evidenceId: 'FILE-001',
@@ -329,7 +277,7 @@ export const chainOfCustody: ChainOfCustodyEntry[] = [
   },
 ];
 
-export const evidenceFiles: EvidenceFile[] = [
+export const mockEvidenceFiles: EvidenceFile[] = [
   {
     id: 'FILE-001',
     caseId: 'CASE-001',
@@ -364,6 +312,3 @@ export const evidenceFiles: EvidenceFile[] = [
     status: 'queued',
   },
 ];
-
-export const notes: InvestigatorNote[] = [];
-export const decisionLog: DecisionLogEntry[] = [];
